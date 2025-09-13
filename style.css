@@ -44,15 +44,18 @@
 }
 
 .nav__link {
+  color: #fff;              /* белый текст */
   text-decoration: none;
-  color: #0a58ca;
-  border-bottom: 1px solid transparent;
-  padding-bottom: 2px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
 }
 
 .nav__link:hover,
 .nav__link:focus {
-  border-bottom-color: #0a58ca;
+  background: rgba(255, 255, 255, 0.2); /* прозрачный белый фон при наведении */
+  color: #ffcc00;                       /* золотистый акцент */
 }
 
 /* Карточки контента */
