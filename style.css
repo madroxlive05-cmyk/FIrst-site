@@ -11,16 +11,6 @@
 
 /* Контейнеры/разделы */
 .header,
-.header {
-  text-align: center;          /* горизонтальное центрирование */
-  display: flex;               
-  flex-direction: column;      /* заголовок + подпись друг под другом */
-  align-items: center;         /* центрируем содержимое по горизонтали */
-  margin-top: 40px;            /* небольшой отступ сверху */
-  margin-bottom: 40px;         /* отступ снизу */
-}
-min-height: 100vh;
-justify-content: center;
 .nav,
 .content,
 .footer {
@@ -154,17 +144,4 @@ justify-content: center;
 }
 #contact-page {
   background: linear-gradient(135deg, #89f7fe, #66a6ff); /* такой же фон, как у других */
-}
-.header {
-  text-align: center;          /* горизонтальное центрирование текста */
-}
-
-#fullname {
-  font-size: 2.2rem;           /* можно увеличить */
-  margin-bottom: 10px;
-}
-
-.tagline {
-  font-size: 1.2rem;
-  margin: 0;
 }
