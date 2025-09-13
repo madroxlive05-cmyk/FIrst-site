@@ -11,6 +11,21 @@
 
 /* Контейнеры/разделы */
 .header,
+/* Центрируем только текст в шапке, без растягивания по высоте */
+.header {
+  display: block;          /* сброс, если стоял flex */
+  text-align: center;      /* центр по горизонтали */
+  margin: 24px auto 16px;  /* обычные отступы, как раньше */
+}
+#fullname {
+  font-size: 2.2rem;
+  margin: 0 0 8px;
+}
+.tagline {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #eaf3ff;          /* подстрой по фону при необходимости */
+}
 .nav,
 .content,
 .footer {
