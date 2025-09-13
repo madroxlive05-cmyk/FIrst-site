@@ -1,9 +1,0 @@
-my-site/
-├── index.html
-├── photo/
-│   ├── mydog.jpg
-│   ├── mycat.jpg
-│   └── myteam.jpg
-└── pages/
-    ├── contact.html
-    └── gallery.html
