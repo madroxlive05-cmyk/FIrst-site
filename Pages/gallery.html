@@ -1,21 +1,37 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <title>Галерея</title>
+  <meta charset="UTF-8">
+  <title>Галерея</title>
+  <link rel="stylesheet" href="../style.css">
 </head>
-<body>
-    <h1>Галерея</h1>
-    <p>Трішки мене</p>
+<body id="page">
 
-    <img src="../Photos/photo1.jpg" alt="photo1" width="300">
-    <img src="../Photos/photo2.jpg" alt="photo2" width="300">
-    <img src="../Photos/photo3.jpg" alt="photo3" width="300">
+  <header class="header">
+    <h1 class="page-title">Галерея</h1>
+    <p class="tagline">Трішки мене</p>
+  </header>
 
-    <h2>Навигация</h2>
-    <ul>
-        <li><a href="../index.html">Главная</a></li>
-        <li><a href="contact.html">Контакты</a></li>
-    </ul>
+  <main class="content">
+    <section class="gallery card">
+      <div class="gallery__grid">
+        <img class="gallery__img" src="../Photos/photo1.jpg" alt="photo1">
+        <img class="gallery__img" src="../Photos/photo2.jpg" alt="photo2">
+        <img class="gallery__img" src="../Photos/photo3.jpg" alt="photo3">
+      </div>
+    </section>
+
+    <nav class="nav">
+      <h2 class="section-title">Навігація</h2>
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="../index.html">Головна</a></li>
+        <li class="nav__item"><a class="nav__link" href="contact.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </main>
+
+  <footer class="footer">
+    <small class="footer__copy">© 2025 Igor Pysarev</small>
+  </footer>
 </body>
 </html>

@@ -3,7 +3,7 @@
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   color: #222;
-  background: #f6f7fb;
+  background: #7384c5;
   margin: 0;
 }
 
@@ -118,4 +118,22 @@
     flex-wrap: wrap;
     gap: 10px 16px;
   }
+}
+/* Галерея */
+.gallery__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.gallery__img {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.gallery__img:hover {
+  transform: scale(1.05);
 }
