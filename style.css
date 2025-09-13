@@ -139,3 +139,6 @@
 .gallery__img:hover {
   transform: scale(1.05);
 }
+#contact-page {
+  background: linear-gradient(135deg, #89f7fe, #66a6ff); /* такой же фон, как у других */
+}
