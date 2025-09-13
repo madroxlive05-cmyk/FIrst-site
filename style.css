@@ -156,18 +156,15 @@ justify-content: center;
   background: linear-gradient(135deg, #89f7fe, #66a6ff); /* такой же фон, как у других */
 }
 .header {
-  text-align: center;       /* выравнивание текста по центру */
-  margin-top: 40px;         /* отступ сверху */
-  margin-bottom: 40px;      /* отступ снизу */
+  text-align: center;          /* горизонтальное центрирование текста */
 }
 
 #fullname {
-  font-size: 2.2rem;        /* крупный заголовок */
+  font-size: 2.2rem;           /* можно увеличить */
   margin-bottom: 10px;
 }
 
 .tagline {
   font-size: 1.2rem;
-  color: #f1f1f1;           /* можно поменять, если сливается с фоном */
   margin: 0;
 }
