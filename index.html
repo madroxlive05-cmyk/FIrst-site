@@ -1,32 +1,53 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <title>Про мене</title>
+  <meta charset="UTF-8">
+  <title>Про мене</title>
+  <style>
+    .about {
+      display: flex;
+      align-items: flex-start; /* выравнивание по верхнему краю */
+      gap: 20px;              /* отступ между фото и текстом */
+      margin-top: 20px;
+    }
+    .about img {
+      width: 250px;
+      border-radius: 10px; /* скругление углов картинки */
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      margin: 20px;
+    }
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Писарєв Ігор Борисович</h1>
-    <img src="Photos/me.jpg" alt="Л" width="250">
-    <p>Від ремонту до тестування крок за кроком до розвитку</p>
+  <h1>Писарев Ігор Борисович</h1>
+  <p>Від ремонту до тестування крок за кроком до розвитку</p>
 
-    <h2>Навігація</h2>
-    <ul>
-        <li><a href="index.html">Головна</a></li>
-        <li><a href="Pages/gallery.html">Галерея</a></li>
-        <li><a href="Pages/contact.html">Контакти</a></li>
-    </ul>
+  <h2>Навігація</h2>
+  <ul>
+    <li><a href="index.html">Головна</a></li>
+    <li><a href="Pages/gallery.html">Галерея</a></li>
+    <li><a href="Pages/contact.html">Контакти</a></li>
+  </ul>
 
-    <h2>Про мне</h2>
-    <p>Я цікавлюся технологіями та постійно розвиваюся у сфері IT.
- Вмію працювати з комп'ютерами та ноутбуками: налаштовую,
-  чиню та допомагаю віддалено через програми на кшталт AnyDesk. 
-  Зараз освоюю тестування програмного забезпечення та роблю перші 
-  кроки у створенні сайтів.</p>
+  <h2>Про мене</h2>
+  <div class="about">
+    <img src="Photos/me.jpg" alt="Я">
+    <p>
+      Я цікавлюся технологіями та постійно розвиваюся у сфері ІТ.
+      Вмію працювати з комп'ютерами та ноутбуками: налаштовую, чиню та допомагаю віддалено через програми на кшталт AnyDesk.
+      Зараз освоюю тестування програмного забезпечення та роблю перші кроки у створенні сайтів.
+    </p>
+  </div>
 
-       
-    <a href="https://www.tiktok.com/@_mustangcat" target="_blank">
-    <img src="Photos/cat.jpg" alt="Мой кот" width="250">
-</a>
-    
+  <h2>А це мій кіт</h2>
+  <a href="https://www.tiktok.com/@_mustangcat" target="_blank">
+    <img src="Photos/cat.jpg" alt="Мій кіт" width="250">
+  </a>
 </body>
 </html>
