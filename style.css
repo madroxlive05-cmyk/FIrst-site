@@ -79,8 +79,9 @@
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   padding: 16px;
-  margin: 16px 0;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+  margin: 24px auto;     /* центрирование */
+  max-width: 700px;      /* ограничиваем ширину */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
 /* Блок "Про мене" – фото слева, текст справа */
