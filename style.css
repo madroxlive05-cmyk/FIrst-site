@@ -162,3 +162,26 @@
 #contact-page {
   background: linear-gradient(135deg, #89f7fe, #66a6ff); /* такой же фон, как у других */
 }
+/* Центрирование навигации */
+.nav {
+  text-align: center; /* заголовок и блок по центру */
+}
+
+.nav .section-title {
+  text-align: center;
+  margin: 0 0 12px;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: center; /* центрируем ссылки */
+  gap: 16px;
+  padding: 0;
+  margin: 8px auto 0;
+  width: 100%;
+}
+
+.nav__item {
+  margin: 0;
+  list-style: none;
+}
