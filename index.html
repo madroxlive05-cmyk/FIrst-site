@@ -1,53 +1,52 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="uk">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Про мене</title>
-  <style>
-    .about {
-      display: flex;
-      align-items: flex-start; /* выравнивание по верхнему краю */
-      gap: 20px;              /* отступ между фото и текстом */
-      margin-top: 20px;
-    }
-    .about img {
-      width: 250px;
-      border-radius: 10px; /* скругление углов картинки */
-    }
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.5;
-      margin: 20px;
-    }
-    h1, h2 {
-      margin-bottom: 10px;
-    }
-  </style>
+  <!-- Подключаем внешний стиль -->
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-  <h1>Писарев Ігор Борисович</h1>
-  <p>Від ремонту до тестування крок за кроком до розвитку</p>
+<body id="page">
 
-  <h2>Навігація</h2>
-  <ul>
-    <li><a href="index.html">Головна</a></li>
-    <li><a href="Pages/gallery.html">Галерея</a></li>
-    <li><a href="Pages/contact.html">Контакти</a></li>
-  </ul>
+  <header class="header">
+    <h1 id="fullname">Писарев Ігор Борисович</h1>
+    <p class="tagline">Від ремонту до тестування крок за кроком до розвитку</p>
+  </header>
 
-  <h2>Про мене</h2>
-  <div class="about">
-    <img src="Photos/me.jpg" alt="Я">
-    <p>
-      Я цікавлюся технологіями та постійно розвиваюся у сфері ІТ.
-      Вмію працювати з комп'ютерами та ноутбуками: налаштовую, чиню та допомагаю віддалено через програми на кшталт AnyDesk.
-      Зараз освоюю тестування програмного забезпечення та роблю перші кроки у створенні сайтів.
-    </p>
-  </div>
+  <nav class="nav">
+    <h2 class="section-title">Навігація</h2>
+    <ul class="nav__list">
+      <li class="nav__item"><a class="nav__link" href="index.html">Головна</a></li>
+      <li class="nav__item"><a class="nav__link" href="Pages/gallery.html">Галерея</a></li>
+      <li class="nav__item"><a class="nav__link" href="Pages/contact.html">Контакти</a></li>
+    </ul>
+  </nav>
 
-  <h2>А це мій кіт (клацай на фото)</h2>
-  <a href="https://www.tiktok.com/@_mustangcat" target="_blank">
-    <img src="Photos/cat.jpg" alt="Мій кіт" width="250">
-  </a>
+  <main class="content">
+    <section id="about" class="card about">
+      <img class="about__photo" src="Photos/me.jpg" alt="Я" />
+      <div class="about__text">
+        <h2 class="section-title">Про мене</h2>
+        <p>
+          Я цікавлюся технологіями та постійно розвиваюся у сфері ІТ.
+          Вмію працювати з комп'ютерами та ноутбуками: налаштовую, чиню та
+          допомагаю віддалено через програми на кшталт AnyDesk. Зараз
+          освоюю тестування програмного забезпечення та роблю перші кроки у
+          створенні сайтів.
+        </p>
+      </div>
+    </section>
+
+    <section id="cat" class="card media">
+      <h2 class="section-title">А це мій кіт (клацай фото)</h2>
+      <a class="media__link" href="https://www.tiktok.com/@_mustangcat" target="_blank" rel="noopener">
+        <img class="media__img" src="Photos/cat.jpg" alt="Мій кіт" />
+      </a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small class="footer__copy">© 2025 Igor Pysarev</small>
+  </footer>
 </body>
 </html>
