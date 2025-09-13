@@ -11,6 +11,16 @@
 
 /* Контейнеры/разделы */
 .header,
+.header {
+  text-align: center;          /* горизонтальное центрирование */
+  display: flex;               
+  flex-direction: column;      /* заголовок + подпись друг под другом */
+  align-items: center;         /* центрируем содержимое по горизонтали */
+  margin-top: 40px;            /* небольшой отступ сверху */
+  margin-bottom: 40px;         /* отступ снизу */
+}
+min-height: 100vh;
+justify-content: center;
 .nav,
 .content,
 .footer {
