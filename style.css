@@ -5,6 +5,8 @@
   color: #222;
   background: #7384c5;
   margin: 0;
+
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
 }
 
 /* Контейнеры/разделы */
